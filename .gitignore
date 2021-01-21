@@ -1,0 +1,21 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+
+# ignore all files in any directory named cache
+/cache
+img/
+attachments/
+.log
+.lock
+.tmp
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+# readme file
+readme.html

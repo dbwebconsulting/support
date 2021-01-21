@@ -4,13 +4,13 @@
 // ==> GENERAL
 
 // --> General settings
-$hesk_settings['site_title']='Website';
+$hesk_settings['site_title']='The Marketing Department - 61st Force Support Squadron';
 $hesk_settings['site_url']='http://support';
-$hesk_settings['hesk_title']='Help Desk';
+$hesk_settings['hesk_title']='Marketing Department';
 $hesk_settings['hesk_url']='http://support';
-$hesk_settings['webmaster_mail']='support@example.com';
-$hesk_settings['noreply_mail']='support@example.com';
-$hesk_settings['noreply_name']='Help Desk';
+$hesk_settings['webmaster_mail']='dave.buxton@spaceforce.mil';
+$hesk_settings['noreply_mail']='support@helpdesk.lafss.com';
+$hesk_settings['noreply_name']='Marketing Department';
 $hesk_settings['site_theme']='hesk3';
 
 // --> Language settings
@@ -39,14 +39,14 @@ $hesk_settings['max_listings']=20;
 $hesk_settings['print_font_size']=12;
 $hesk_settings['autoclose']=0;
 $hesk_settings['max_open']=0;
-$hesk_settings['new_top']=0;
+$hesk_settings['new_top']=1;
 $hesk_settings['reply_top']=0;
-$hesk_settings['hide_replies']=-1;
+$hesk_settings['hide_replies']=10;
 $hesk_settings['limit_width']=800;
 
 // --> Features
 $hesk_settings['autologin']=1;
-$hesk_settings['autoassign']=1;
+$hesk_settings['autoassign']=0;
 $hesk_settings['require_email']=1;
 $hesk_settings['require_owner']=0;
 $hesk_settings['require_subject']=1;
@@ -61,13 +61,13 @@ $hesk_settings['spam_notice']=1;
 $hesk_settings['list_users']=0;
 $hesk_settings['debug_mode']=0;
 $hesk_settings['short_link']=0;
-$hesk_settings['select_cat']=0;
+$hesk_settings['select_cat']=1;
 $hesk_settings['select_pri']=0;
 $hesk_settings['cat_show_select']=15;
 
 // --> SPAM Prevention
 $hesk_settings['secimg_use']=1;
-$hesk_settings['secimg_sum']='13N4BRS4WW';
+$hesk_settings['secimg_sum']='G2XJGR36ZN';
 $hesk_settings['recaptcha_use']=0;
 $hesk_settings['recaptcha_public_key']='';
 $hesk_settings['recaptcha_private_key']='';
@@ -76,7 +76,7 @@ $hesk_settings['question_ask']='Are you a human? (yes or no)';
 $hesk_settings['question_ans']='yes';
 
 // --> Security
-$hesk_settings['attempt_limit']=6;
+$hesk_settings['attempt_limit']=7;
 $hesk_settings['attempt_banmin']=60;
 $hesk_settings['reset_pass']=1;
 $hesk_settings['email_view_ticket']=1;
@@ -86,8 +86,8 @@ $hesk_settings['force_ssl']=0;
 // --> Attachments
 $hesk_settings['attachments']=array (
 'use' => 1,
-'max_number' => 2,
-'max_size' => 2097152,
+'max_number' => 4,
+'max_size' => 5242880,
 'allowed_types' => array('.gif','.jpg','.png','.zip','.rar','.csv','.doc','.docx','.xls','.xlsx','.txt','.pdf')
 );
 
@@ -154,7 +154,7 @@ $hesk_settings['loop_time']=300;
 
 // --> Detect email typos
 $hesk_settings['detect_typos']=1;
-$hesk_settings['email_providers']=array('aim.com','aol.co.uk','aol.com','att.net','bellsouth.net','blueyonder.co.uk','bt.com','btinternet.com','btopenworld.com','charter.net','comcast.net','cox.net','earthlink.net','email.com','facebook.com','fastmail.fm','free.fr','freeserve.co.uk','gmail.com','gmx.at','gmx.ch','gmx.com','gmx.de','gmx.fr','gmx.net','gmx.us','googlemail.com','hotmail.be','hotmail.co.uk','hotmail.com','hotmail.com.ar','hotmail.com.mx','hotmail.de','hotmail.es','hotmail.fr','hushmail.com','icloud.com','inbox.com','laposte.net','lavabit.com','list.ru','live.be','live.co.uk','live.com','live.com.ar','live.com.mx','live.de','live.fr','love.com','lycos.com','mac.com','mail.com','mail.ru','me.com','msn.com','nate.com','naver.com','neuf.fr','ntlworld.com','o2.co.uk','online.de','orange.fr','orange.net','outlook.com','pobox.com','prodigy.net.mx','qq.com','rambler.ru','rocketmail.com','safe-mail.net','sbcglobal.net','t-online.de','talktalk.co.uk','tiscali.co.uk','verizon.net','virgin.net','virginmedia.com','wanadoo.co.uk','wanadoo.fr','yahoo.co.id','yahoo.co.in','yahoo.co.jp','yahoo.co.kr','yahoo.co.uk','yahoo.com','yahoo.com.ar','yahoo.com.mx','yahoo.com.ph','yahoo.com.sg','yahoo.de','yahoo.fr','yandex.com','yandex.ru','ymail.com');
+$hesk_settings['email_providers']=array('aim.com','aol.co.uk','aol.com','att.net','bellsouth.net','blueyonder.co.uk','bt.com','btinternet.com','btopenworld.com','charter.net','comcast.net','cox.net','earthlink.net','email.com','facebook.com','fastmail.fm','free.fr','freeserve.co.uk','gmail.com','gmx.at','gmx.ch','gmx.com','gmx.de','gmx.fr','gmx.net','gmx.us','googlemail.com','hotmail.be','hotmail.co.uk','hotmail.com','hotmail.com.ar','hotmail.com.mx','hotmail.de','hotmail.es','hotmail.fr','hushmail.com','icloud.com','inbox.com','laposte.net','lavabit.com','list.ru','live.be','live.co.uk','live.com','live.com.ar','live.com.mx','live.de','live.fr','love.com','lycos.com','mac.com','mail.com','mail.ru','me.com','msn.com','nate.com','naver.com','neuf.fr','ntlworld.com','o2.co.uk','online.de','orange.fr','orange.net','outlook.com','pobox.com','prodigy.net.mx','qq.com','rambler.ru','rocketmail.com','safe-mail.net','sbcglobal.net','spaceforce.mil','t-online.de','talktalk.co.uk','tiscali.co.uk','verizon.net','virgin.net','virginmedia.com','wanadoo.co.uk','wanadoo.fr','yahoo.co.id','yahoo.co.in','yahoo.co.jp','yahoo.co.kr','yahoo.co.uk','yahoo.com','yahoo.com.ar','yahoo.com.mx','yahoo.com.ph','yahoo.com.sg','yahoo.de','yahoo.fr','yandex.com','yandex.ru','ymail.com');
 
 // --> Notify customer when
 $hesk_settings['notify_new']=1;
@@ -173,11 +173,11 @@ $hesk_settings['open_only']=1;
 
 // ==> TICKET LIST
 
-$hesk_settings['ticket_list']=array('trackid','lastchange','name','subject','status','lastreplier');
+$hesk_settings['ticket_list']=array('trackid','lastchange','category','name','email','subject','status','lastreplier');
 
 // --> Other
-$hesk_settings['submittedformat']=2;
-$hesk_settings['updatedformat']=2;
+$hesk_settings['submittedformat']=1;
+$hesk_settings['updatedformat']=1;
 
 
 // ==> MISC
